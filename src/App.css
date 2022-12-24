@@ -1,0 +1,306 @@
+
+
+.App {
+  text-align: center;
+}
+body{
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+.loginbg{
+  background-color:cadetblue;
+}
+.navListColor a{
+  color:#333333;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}.snav{
+  font-size: 13px;
+}
+
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: flex;
+}
+.lightText p:hover{
+  color:goldenrod;
+}
+.lightText p{
+  font-size: 13px;
+}
+.lightText{
+  line-height:22px;
+  padding: 5px 0;
+  background-color:#F5F5F5;
+}
+.mobile-cart{
+  display:none;
+  position: relative;
+}
+.mobile-input{
+  display:none;
+}
+.navBg{
+  background-color: whitesmoke;
+  color:black;
+  font-size: 13px;
+}
+
+.cartbtn{
+  border-radius: 6px 0px;
+}
+.navBg a{
+  color:#333333;
+}
+.sideTopImg{
+  margin-bottom: 0.8rem;
+}
+.shopProd{
+  font-size: 10px;
+}
+.prodDetail{
+  background-color: darkcyan;
+  padding:1rem;
+}
+.prodName,.prodPrice{
+  font-size: 15px;
+}
+.formbg{
+  background-color:#F5F5F5 ;
+}
+.containerbg{
+  background-color: bisque;
+}
+
+.btn-success{
+  background-color:darkcyan;
+  border:darkcyan;
+}
+.sideImg{
+  height: 12rem;
+}
+.firstSection img{
+  filter:brightness(0.8)
+}
+.selling{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.firstSection{
+  padding: 1rem 1rem;
+}
+.navPad{
+  padding:0 10px;
+}
+.shopCollection{
+  font-size:18px;
+  width:fit-content;
+  border-bottom:2px solid darkcyan;
+}
+.formWidth{
+  width:50%;
+}
+
+.headList{
+  margin-left:2.5rem;
+}
+.foot{
+  padding:0 4rem;
+}
+.rating{
+  width:65%;
+}
+.ratingImg{
+  width:35%;
+}
+.inpw-50{
+  width:50%;
+}
+.shopImg{
+  padding-left:0;
+  padding-right:0;
+}
+.shopImg2{
+  padding-right:0;
+  padding-left:0;
+}
+.secondNav{
+  padding-top: 0;
+  padding-bottom:0;
+}
+.cartWidth{
+  width:40%
+}
+.rex{
+  color:darkcyan;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.mobileView{
+  display:none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 767px) {
+
+  .selling{
+    grid-template-columns: 1fr 1fr;
+  }
+  .sideImg {
+    height: 7rem;
+  }
+  .burger-cart,.burger-input{
+    display: none;
+  }
+  .mobile-cart,.mobile-input{
+    display: block;
+  }
+  .mobile-input-button{
+    margin-left: -0.5rem;
+  }
+  .mobile-input{
+    width:90%;
+    margin:10px;
+  }
+  
+  .firstNavPx{
+    display:none;
+  }
+  .firstList{
+    display:none;
+  }
+  .secondNav{
+    padding-top: 10px;
+    padding-bottom:10px;
+    background:whitesmoke;
+    color:white;
+  }
+  .cartWidth{
+    width:100%
+  }
+  .law,.rex{
+    color:white
+  }
+  .handBurger{
+    background:white;
+    border:white;
+    margin-bottom: 10px;
+  }
+  .adjmb{
+    margin-bottom: 1rem;
+    padding:0;
+  }
+  .shopImg{
+    padding-right:1rem
+  }
+  .shopImg2{
+    padding-right:0
+  }
+  .cartmainInfo{
+    display:none;
+  }
+  .mobileView{
+    display:block;
+    font-weight: bold;
+  }
+  .inpw-50{
+    width:100%;
+  }
+ 
+  .formWidth{
+    width:100%;
+  }
+  .headList,.log{
+    margin-left:0.3rem;
+  }
+  .foot{
+    padding:0 1.5rem;
+  }
+  .log{
+    margin-bottom: 1rem;
+  }
+  .sidemidImg{
+    
+    height:15rem;
+  }
+  .navListcolor{
+    color:white;
+  }
+}
+@media only screen  and (min-width: 325px) and (max-width: 425px){
+   .abstext{
+      right: 17%;
+  }
+}
+@media only screen  and (min-width: 767px) and (max-width: 800px){
+  .firstNavPx{
+    display:none;
+  }
+  .cartWidth{
+    width:40%
+  }
+  .secondNav{
+    padding-top: 10px;
+    padding-bottom:10px;
+    background-color: whitesmoke;
+  }
+  .law,.rex{
+    color:white
+  }
+  .handBurger{
+    background:white;
+    border:white;
+     margin-bottom: 10px;
+  }
+  .navListcolor{
+    color:white;
+  }
+  
+  .sidemidImg{
+    height:24rem;
+  }
+.log{
+  margin-bottom: 1rem;
+}
+.headList,.log{
+  margin-left:0.3rem;
+}
+
+}
+@media screen and (min-width: 800px) and (max-width: 1439px){
+  
+.sidemidImg{
+  height:24rem;
+}
+.headList{
+  font-size: 12px;
+}
+}
