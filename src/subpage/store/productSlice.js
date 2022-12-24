@@ -27,7 +27,7 @@ export const productsCreate= createAsyncThunk(
 export const adminProductsFetch = createAsyncThunk(
     "products/adminProductsFetch",
     async(state,action)=>{
-       const response = await axios.get("https://warm-gorge-13303.herokuapp.com/api/products");
+       const response = await axios.get("https://webcommerce-api.onrender.com/api/products");
        return response?.data
     }
 )
@@ -80,7 +80,7 @@ const product_Slice = createSlice({
 export const homeDealsFetch = createAsyncThunk(
     "products/homeDealsFetch",
     async()=>{
-       const response = await axios.get("https://warm-gorge-13303.herokuapp.com/topSellingDeals");
+       const response = await axios.get("https://webcommerce-api.onrender.com/topSellingDeals");
        return response?.data;
     }
 )
@@ -88,14 +88,14 @@ export const homeDealsFetch = createAsyncThunk(
 export const shopsFetch = createAsyncThunk(
     "products/shopsFetch",
     async()=>{
-       const response = await axios.get("https://warm-gorge-13303.herokuapp.com/topSellingShops");
+       const response = await axios.get("https://webcommerce-api.onrender.com/topSellingShops");
        return response?.data;
     }
 )
 export const productsFetch = createAsyncThunk(
     "products/productsFetch",
     async()=>{
-       const response = await axios.get("https://warm-gorge-13303.herokuapp.com/topSellingProducts");
+       const response = await axios.get("https://webcommerce-api.onrender.com/topSellingProducts");
        return response?.data;
     }
 )
