@@ -48,7 +48,7 @@ export const TopSellingSection =()=>{
                                     const {name,img,price,id} = item;
                                     return(
                                         <div key={index} className='align-items-center justify-content-center'>
-                                            <div className='bg bg-white m-1 p-2'>
+                                            <div className='bg bg-white m-3 p-2 rounded shadow'>
                                                 <img className='w-100' src={img} alt="object not found"/>
                                                 <div  className='my-2 text-center'>
                                                     <p className='my-0 prodName fw-bold '>{name}</p>

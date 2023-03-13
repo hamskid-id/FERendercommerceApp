@@ -29,7 +29,7 @@ export const AdminSection =()=>{
                                        const {name,image,price} = item;
                                        return(
                                            <div key={index} className='obj-w align-items-center justify-content-center'>
-                                               <div className='bg bg-white m-1 p-2 '>
+                                               <div className='bg bg-white m-3 p-2 rounded shadow'>
                                                    <img className='w-100' src={image.url} alt="object not found"/>
                                                    <div  className='my-2 text-center'>
                                                        <p className='my-0 prodName fw-bold '>{name}</p>

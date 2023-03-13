@@ -1,33 +1,32 @@
 import React from "react";
 export const Footer = ()=>{
     return(
-        <div className='container-Fliud'>
+        <div className='container-Fliud px-2'>
             <div className='container-fluid text-white py-5 foot' style={{background:'dimgrey'}}>
                 <div className='row'>
-                   
                     <div className="col-md-6">
-                        <div className='row justify-content-center'>
+                        <div className='row justify-content-start'>
                             <div className='col-md-12 py-3'>
-                                <p className='fw-bold display-5 text-center'>NEW TO LAWREX?</p>
-                                <h6 className="text-center" > Subscribe to our news letter to get the latest updates from larex</h6>
-                                <form className="d-flex flex-row align-items-center justify-content-center">
-                                    <input className='rounded border border-white w-100 p-1 mb-0' type='text' placeholder=" Enter your email address"/>
+                                <p className='fw-bold fs-4 '>NEW TO LAWREX ?</p>
+                                <h6> Subscribe to our news letter to get the latest updates from larex</h6>
+                                <form className="d-flex flex-row justify-content-start">
+                                    <input className='rounded border border-white w-50 p-2 mb-0' type='text' placeholder=" Enter your email address"/>
                                     <button className='btn  btn-sm fs-6 p-1 ms-0 mt-0 text-white' type="button" style={{background:'darkslategrey'}}>Submit</button>
                                 </form>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-6  py-3">
-                        <div className="row justify-content-center">
+                        <div className="row justify-content-start">
                             <div className="col-md-12">
                                  <div className="row">
                                     <div className="col-md-12">
-                                        <h6 className="fw-bold text-center">DOWNLOAD LAWREX FREE APP</h6>  
-                                        <p style={{fontSize:'14px'}} className="text-center">Get Access to exclusive offer</p>
+                                        <h6 className="fw-bold ">DOWNLOAD LAWREX FREE APP</h6>  
+                                        <p style={{fontSize:'14px'}}>Get Access to exclusive offer</p>
                                     </div>
                             </div>
                             <div className="col-md-12">
-                                <span className="d-flex flex-row justify-content-center">
+                                <span className="d-flex flex-row justify-content-start">
                                     <div>
                                         <button type='button' className="text-white rounded border border-white playbtn" style={{background:'black'}}>
                                                 <div className='d-flex flex-row' style={{paddingTop:'2px'}}>
